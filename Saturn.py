@@ -27,15 +27,6 @@ def update():
     saturn.rotation_x = 80
     saturn.reparent_to(fixed_entity)
 
-    # color/ background?
-    # for x in range(5):
-    #     for z in range(5):  # adjusts the speed of rotation
-                # Entity(model='plane', scale=fixed_entity.scale, color=color.gray, shader=lit_with_shadows_shader)  #scale fixed the pixel
-                # Entity(model='cube', y=1, shader=lit_with_shadows_shader)
-                # pivot = Entity
-                # DirectionalLight(parent=pivot, y=2, z=3, shadows=True, rotation=(20, -20, 20))
-
-
 saturn = Entity(model='sphere', texture='assets/saturn', scale=3000)
 cam_lens = 227.9 * 2 + 1000
 
@@ -49,8 +40,6 @@ ring.reparent_to(fixed_entity)
 
 project = FirstPersonController()
 smithy = EditorCamera(move_speed=9000, parent=cam_lens)
-# camera.clip_plane_far = 2e10
-
 
 
 smithy.y = 8000
