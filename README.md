@@ -1,5 +1,7 @@
 # The Planet Saturn
 
+https://user-images.githubusercontent.com/43998497/168687896-927bb747-cd3c-4cd4-81f2-d8f88c06a6d1.mov
+
 
 ### Intro
 For this mini-project, I have made use of ursina, designed for developing games, as well as python language to create a visualization of the planet Saturn. The original idea of making such animation came from an honors research I have conducted during a semester in my undergraduate studies. The outcome has rather an entertaining purpose for the users.  
